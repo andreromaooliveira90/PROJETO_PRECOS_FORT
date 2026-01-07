@@ -1,0 +1,25 @@
+# Ambientes Virtuais (VENV)
+venv/
+env/
+.env
+
+# Python (Arquivos temporários e compilados)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Dados (Protege os dados sensíveis ou muito pesados se necessário)
+# Se você quiser que os CSVs subam para o GitHub para mostrar os dados, 
+# COMENTE a linha abaixo com um '#'
+# data/raw/*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Windows / VS Code
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
