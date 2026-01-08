@@ -32,6 +32,12 @@ PROJETO_PRECOS_FORT/
 3. Instale as dependências: `pip install -r requirements.txt`.
 4. Execute o coletor: `python scripts/fort_atacadista.py`.
 
+## 📉 Análise Econômica e Insights (Business Intelligence)
+Como economista, este pipeline foi desenhado para permitir análises de:
+* **Índice de Preços Personalizado:** Criação de um índice de inflação próprio para itens de alto consumo (ex: Cesta Básica vs. Churrasco).
+* **Elasticidade e Sazonalidade:** Identificação de ciclos de oferta (ex: promoções de hortifrúti no meio da semana) e o impacto no custo de aquisição.
+* **Otimização de Orçamento:** Algoritmo para sugerir o "dia ideal de compra" com base na série histórica capturada pelo pipeline.
+
 ## 📈 Próximos Passos
 - [ ] Criar dashboard de comparação de preços entre dias da semana.
 - [ ] Calcular a volatilidade de cada categoria.
